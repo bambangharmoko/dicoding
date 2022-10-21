@@ -99,8 +99,8 @@ main {
 
 .paragraf,
 .aside-paragraf {
-  margin: 0 45px;
-  padding: 20px;
+  margin: 20px 45px;
+  padding: 25px;
   background-color: #425f57;
   color: #ffffff;
 }
@@ -115,7 +115,8 @@ main {
 
 .featured-image {
   width: 250px;
-  /* margin: 5px; */
+  margin: 20px auto;
+  display: block;
 }
 
 figure {
@@ -124,8 +125,27 @@ figure {
 
 .article-header {
   font-size: 30px;
+  margin-bottom: 20px;
   font-weight: bold;
   text-transform: capitalize;
+  text-align: center;
+}
+
+.article-paragraf {
+  text-align: justify;
+}
+
+.col-image {
+  max-width: 40%;
+  height: max-content;
+}
+
+.article-image {
+  display: flex;
+  margin: 10px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -235,7 +255,7 @@ figure {
   }
   .aside-paragraf {
     flex: 20%;
-    margin: 0 45px;
+    margin: 20px 45px;
     text-align: center;
   }
 }
