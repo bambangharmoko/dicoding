@@ -1,0 +1,189 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.head-nav {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  color: #a8e890;
+  background-color: #425f57;
+}
+
+.head {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-transform: capitalize;
+}
+
+nav {
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  padding: 15px;
+  /* width: 80px; */
+  height: 80px;
+  /* background-color: rgba(83, 83, 83, 0.5); */
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.navi > li {
+  list-style: none;
+  margin: 15px;
+  margin-right: 0;
+}
+
+.navi > li > a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.navi > li > a:hover {
+  background-color: #a8e890;
+  border-radius: 10px;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mid-active {
+  background-color: #a8e890;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+main {
+  /* display: flex; */
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+.paragraf,
+.aside-paragraf {
+  margin: 0 45px;
+  padding: 20px;
+  background-color: #425f57;
+  color: #ffffff;
+}
+
+.paragraf {
+  flex: 80%;
+}
+
+.aside-paragraf {
+  flex: 20%;
+}
+
+.featured-image {
+  width: 250px;
+}
+
+.article-header {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .paragraf {
+    flex: 100%;
+  }
+  .aside-paragraf {
+    flex: 100%;
+    margin: 40px 45px;
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .paragraf {
+    flex: 100%;
+  }
+  .aside-paragraf {
+    flex: 100%;
+    margin: 40px 45px;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .paragraf {
+    flex: 100%;
+  }
+  .aside-paragraf {
+    flex: 100%;
+    margin: 40px 45px;
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .row {
+    flex-direction: row;
+  }
+  .paragraf {
+    flex: 80%;
+  }
+  .aside-paragraf {
+    flex: 20%;
+    margin: 0 45px;
+    text-align: center;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .row {
+    flex-direction: row;
+  }
+  .paragraf {
+    flex: 80%;
+  }
+  .aside-paragraf {
+    flex: 20%;
+    margin: 0 45px;
+    text-align: center;
+  }
+}
