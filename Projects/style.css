@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap");
 *,
 html,
 body {
   margin: 0;
   padding: 0;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  font-family: 'Noto Sans Wancho', sans-serif;
+  font-family: "Noto Sans Wancho", sans-serif;
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
@@ -134,7 +134,7 @@ figure {
   height: max-content;
 }
 
-.article-image {
+.sub-image {
   display: flex;
   margin: 20px auto;
   padding: 0 150px;
@@ -256,4 +256,74 @@ figure {
     margin: 20px 45px;
     text-align: center;
   }
+}
+
+/* footer {
+  position: fixed;
+  bottom: 0;
+} */
+
+header span {
+  color: #3f71ea;
+}
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .footer-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .footer-icons {
+  margin-top: 25px;
+}
+
+.footer .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer .footer-icons {
+  margin-top: 25px;
+}
+
+.footer .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  /* margin-right: 3px; */
+  margin-bottom: 5px;
 }
